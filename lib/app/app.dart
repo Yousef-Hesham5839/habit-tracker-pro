@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:habit_tracker_pro/app/theme/app_theme.dart';
 import 'package:habit_tracker_pro/features/habit/presentation/pages/home_page.dart';
 
 class HabitTrackerApp extends StatelessWidget {
@@ -9,6 +10,7 @@ class HabitTrackerApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Habit Tracker Pro',
+      theme: AppTheme.light,
       home: const HomePage(),
     );
   }
